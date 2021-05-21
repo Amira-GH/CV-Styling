@@ -1,0 +1,332 @@
+body{
+    position: relative;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    color: red;
+}
+
+figure{
+    margin-top: -125px;
+    margin-left: 420px;
+}
+
+h1{
+    margin-left: 120px;
+    padding-top: 30px;
+}
+
+h2{
+    margin-left: 120px;
+}
+
+header > div{
+    background-color: gray;
+    height: 150px;
+}
+
+.contacts{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    margin:0px;
+    width: 50%;
+    line-height: 10px;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    
+} 
+dl{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    line-height: 1.4em;
+    margin: 0px;
+    background-color: black;
+}
+dt {
+    width :34%;
+}
+dd{
+    margin-left: auto;
+    width :66%;
+}
+
+.contact-type{
+    background-color: red;
+    color: white;
+}
+.contact-value{
+    background-color: black;
+    color:red;
+}
+a{
+    color: red;
+    text-decoration: none;
+
+}
+
+
+#about > h3{
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: initial;   
+}
+
+#about > h3{
+    list-style: none;  
+}
+
+#about > h3::before{
+    content: " ";
+    height: 10px;
+    width: 10px;
+    background-color: red ;
+    border-radius: 50%;
+    display: inline-block; 
+    padding: 5px;   
+    margin-right: 4px;
+
+}
+
+#about{
+    width: 550px;
+    color: black;
+   margin-left: 80px;
+}
+
+
+
+#competencies > h3{
+    list-style: none;  
+}
+
+#competencies > h3::before{
+    content: " ";
+    height: 10px;
+    width: 10px;
+    background-color: red ;
+    border-radius: 50%;
+    display: inline-block; 
+    padding: 5px;   
+    margin-right: 4px;
+    margin-top: 30px;
+
+}
+.contacts > .contact-skype > .contact-value{
+    display: none;
+    color: black;
+}
+
+
+
+.skills-primary::before{
+    content: "Main";
+    font-weight: bold;
+}
+
+.skills-primary::after{
+    content: "Other";
+    font-weight: bold;
+}
+
+#competencies{
+    width: 550px;
+    color: black;
+    margin-left: 650px;
+    margin-top: -227px;
+}
+
+#experiences > h3{
+    display: list-item;
+    list-style-type: initial;
+    list-style-position: initial;   
+}
+
+#experiences > h3{
+    list-style: none;  
+}
+
+#experiences > h3::before{
+    content: " ";
+    height: 10px;
+    width: 10px;
+    background-color: red ;
+    border-radius: 50%;
+    display: inline-block; 
+    padding: 5px;   
+    margin-right: 4px;
+
+}
+
+#experiences{
+    width: 550px;
+    color: black;
+   margin-left: 80px;
+   margin-top: -10px;
+}
+
+
+#education > h3{
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: initial;   
+}
+
+#education > h3{
+    list-style: none;  
+}
+
+#education > h3::before{
+    content: " ";
+    height: 10px;
+    width: 10px;
+    background-color: red ;
+    border-radius: 50%;
+    display: inline-block; 
+    padding: 5px;   
+    margin-right: 4px;
+    margin-top: 30px;
+
+}
+
+#education{
+    width: 550px;
+    color: black;
+    margin-left: 650px;
+    margin-top: -484px;
+}
+
+
+#hobbies > h3{
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: initial;   
+}
+
+#hobbies > h3{
+    list-style: none;  
+}
+
+#hobbies > h3::before{
+    content: " ";
+    height: 10px;
+    width: 10px;
+    background-color: red ;
+    border-radius: 50%;
+    display: inline-block; 
+    padding: 5px;   
+    margin-right: 4px;
+
+}
+
+#hobbies{
+    width: 550px;
+    color: black;
+   margin-left: 80px;
+   margin-top: -10px;
+}
+
+#about > h3{
+    width: 1120px;
+    border-bottom: 2px solid rgb(179, 175, 175);
+}
+
+#experiences > h3{
+    width: 1120px;
+    border-bottom: 2px solid rgb(179, 175, 175);
+}
+
+.experience-type{
+    color: red;
+}
+
+.experience-institution{
+    color: red;
+    font-weight: lighter;
+}
+
+.experience-details{
+    color: rgb(179, 175, 175);
+    margin-left: 15px;
+    margin-top: -18px;
+}
+
+.experience-date-separator{
+    color: red;
+}
+
+#hobbies > h3{
+    width: 570px;
+    border-bottom: 2px solid rgb(179, 175, 175);   
+}
+
+#contact > h3 {
+    color: white;
+}
+
+.skill{
+   display: flexbox;
+   background-color: rgb(197, 194, 194);
+   margin-bottom: 5px;
+   height: 25px;
+   padding: 5px;
+}
+
+#competencies > div.skills-primary > .skill > span{
+    color: white; 
+}
+
+#competencies > div.skills-secondary > .skill > span{
+    color: white;
+}
+
+[data-skill="5"] span{
+    padding-right: 200px;
+    background-color: red;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+[data-skill="3"] span{
+    padding-right: 100px;
+    background-color: red;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+[data-skill="1"] span{
+    display: inline-block;
+    padding-right: -10px;
+    padding-left: 5px;
+    font-size: 20px;
+    background-color: red;
+    width: 10%;
+}
+
+[data-skill="9"] span{
+    background-color: red;
+    padding-right: 445px;
+    padding-left: 5px;
+    font-size: 20px;
+    
+}
+
+[data-skill="7"] span{
+background-color: red;
+padding-right: 350px;
+padding-left: 5px;
+font-size: 20px;
+
+}
+
+.skills-secondary > .skill{
+    background-color: rgb(221, 217, 217);
+}
