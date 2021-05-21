@@ -330,3 +330,180 @@ font-size: 20px;
 .skills-secondary > .skill{
     background-color: rgb(221, 217, 217);
 }
+
+@media only screen and (max-width:600px) {
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header{
+        width:500px;
+    }
+
+    header > div {
+        height: 300px;
+    }
+
+    h1{
+        margin-left: 30px;
+    }
+
+    h2{
+        margin-left: 30px;
+    }
+
+    figure{
+        margin-top: 30px;
+        margin-left: 45px;
+    }
+
+    #about{
+        width: 500px;
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+
+    #about > h3 {
+        width: 500px;
+        border-bottom: 1px solid rgb(179, 175, 175);
+    }
+
+    #competencies{
+        margin-left: 30px;
+        margin-top: -40px;
+        width: 500px;
+    }
+
+    [data-skill="5"] span{
+        padding-right: 230px;
+        background-color: red;
+        font-size: 20px;
+        padding-left: 5px;
+    }
+    
+    [data-skill="3"] span{
+        padding-right: 130px;
+        background-color: red;
+        padding-left: 5px;
+        font-size: 20px;
+    }
+    
+    [data-skill="1"] span{
+        display: inline-block;
+        padding-right: 5px;
+        padding-left: 5px;
+        font-size: 20px;
+        background-color: red;
+        width: 10%;
+    }
+    
+    [data-skill="9"] span{
+        background-color: red;
+        padding-right: 390px;
+        padding-left: 5px;
+        font-size: 20px;
+    }
+    
+    [data-skill="7"] span{
+    background-color: red;
+    padding-right: 300px;
+    padding-left: 5px;
+    font-size: 20px;
+    }
+
+    #competencies > h3 {
+        width: 500px;
+        border-bottom: 1px solid rgb(179, 175, 175);
+    }
+
+    #experiences{
+        width: 500px;
+        margin-left: 30px;
+    }
+
+    #experiences > h3 {
+        width: 500px;
+        border-bottom: 1px solid rgb(179, 175, 175);
+    }
+
+    #education{
+        margin-left: 30px;
+        margin-top: -40px;
+        width: 500px;
+    }
+
+    #education > h3 {
+        width: 500px;
+        border-bottom: 1px solid rgb(179, 175, 175);
+    }
+
+    #hobbies{
+        width: 500px;
+        margin-left: 30px;
+    }
+
+    #hobbies > h3 {
+        width: 500px;
+        border-bottom: 1px solid rgb(179, 175, 175);
+    }
+
+    .contacts{
+    margin-top: 2050px;
+    margin-right: 140px;
+    width: 400px;
+    
+    }
+
+    dl{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px;
+        line-height: 1.4em;
+        margin: 0px;
+        background-color: white;
+    }
+
+    .contact-value{
+        background-color: white;
+        color:red;
+        
+    }
+    a{
+        color: red;
+        text-decoration: none;
+        margin-left: 10px;
+    }
+
+    .contacts > .contact-skype > .contact-value{
+        color: black;
+        display: unset;
+        margin-right: -10px;
+    
+    }
+
+    #contact > h3{
+        color: black;
+        margin-left: 30px;
+    }
+
+    #contact > h3::before{
+        content: " ";
+        height: 10px;
+        width: 10px;
+        background-color: red ;
+        border-radius: 50%;
+        display: inline-block; 
+        padding: 5px;   
+        margin-right: 4px;
+        margin-top: 30px;
+    
+    }
+
+    #contact > h3 {
+        width: 500px;
+        border-bottom: 1px solid rgb(179, 175, 175);
+    }    
+
+    
+}
