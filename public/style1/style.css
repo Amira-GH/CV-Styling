@@ -295,6 +295,11 @@ a{
     padding-left: 5px;
 }
 
+
+div .skills-secondary > div.skill span{
+    background-color: rgb(231, 76, 76);
+}
+
 [data-skill="3"] span{
     padding-right: 100px;
     background-color: red;
@@ -312,15 +317,16 @@ a{
 }
 
 [data-skill="9"] span{
-    background-color: red;
+    background-color: rgb(231, 76, 76);
     padding-right: 445px;
     padding-left: 5px;
     font-size: 20px;
     
+    
 }
 
 [data-skill="7"] span{
-background-color: red;
+    background-color: rgb(231, 76, 76);
 padding-right: 350px;
 padding-left: 5px;
 font-size: 20px;
@@ -331,7 +337,7 @@ font-size: 20px;
     background-color: rgb(221, 217, 217);
 }
 
-/* @media only screen and (max-width:600px) {
+@media only screen and (max-width:600px) {
     .content{
         display: flex;
         flex-direction: column;
@@ -506,4 +512,4 @@ font-size: 20px;
     }    
 
     
-} */
+}
