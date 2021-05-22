@@ -1,0 +1,100 @@
+h1{
+    margin-left: 130px;
+    width: 1000px;
+    border-bottom: 2px solid rgb(221, 216, 216);
+    padding-bottom: 15px;
+    margin-top: 80px;
+}
+
+h2{
+    display: none;
+}
+
+figure > img{
+   width: 200px;
+   height: 200px;
+   transform: rotate(-20deg);
+   margin-top: -90px;
+   margin-left: 820px;
+}
+
+#about > h3{
+display: none;
+}
+
+#about{
+    width: 618px;
+    height: 100px;
+    margin-top: -140px;
+    margin-left: 130px;
+    color: rgb(167, 161, 161);
+    font-style: italic;
+    font-size: 15px;
+}
+
+#competencies{
+    margin-left: 130px;
+   
+}
+
+.skills-primary{
+    margin-left: 200px;
+    margin-top: -40px;
+}
+
+.skills-secondary{
+    margin-left: 200px;
+}
+
+#experiences{
+    margin-left: 130px;
+}
+
+.experience{
+margin-left: 200px;
+margin-bottom: 42px;
+margin-top: -42px;
+}
+
+.experience-description{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h4{
+    color: rgb(28, 158, 160);
+}
+
+.experience-institution{
+    display: none;
+}
+
+.experience-location{
+    display: none;
+}
+
+.experience-date{
+    color: rgb(167, 161, 161);
+    margin-left: 680px;
+}
+
+.experience-date-separator{
+    color: rgb(28, 158, 160);
+}
+
+.experience-details{
+    margin-top: -45px;
+}
+
+.experience-description{
+    width: 840px;
+}
+
+#education{
+    margin-left: 130px;
+}
+
+#hobbies{
+    margin-left: 130px;
+}
+

@@ -331,7 +331,7 @@ font-size: 20px;
     background-color: rgb(221, 217, 217);
 }
 
-@media only screen and (max-width:600px) {
+/* @media only screen and (max-width:600px) {
     .content{
         display: flex;
         flex-direction: column;
@@ -506,4 +506,4 @@ font-size: 20px;
     }    
 
     
-}
+} */
